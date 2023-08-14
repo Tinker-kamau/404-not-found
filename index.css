@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body{
+    font-family:"Space Mono", monospace;
+    padding: 24px;
+}
+
+img{
+    max-width: 30%;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+section p {
+    text-transform: bold;
+}
+
+button {
+    font-family: inherit;
+    background-color: #333333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.created-by{
+    font-size: 14px;
+    opacity: 75%;
+    text-align: center;
+}
+@media (min-width: 768px){
+    section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 48px;
+        align-items: center;
+    }
+
+    button{
+        font-size: 20px;
+    }
+}
